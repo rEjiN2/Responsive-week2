@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-item{
+    padding-right: 30px;
+    font-size: medium;
+    text-transform: uppercase;
+}
+.item{
+    color: black;
+    font-weight: 600;
+}
+.item:hover{
+color: red;
+
+}
+.heading{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(43, 43, 112);
+}
+.p-head{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 60px;
+    margin: auto;
+}
+.btn1:hover{
+    background: tomato;
+    transition: 0.5s;
+}
+.span{
+    font-size: larger;
+    font-weight: 500;
+    color: grey;
+}
+.para{
+    font-size: 1.1rem;
+    color: rgb(75, 61, 61);
+}
+.course{
+    background: rgb(225, 240, 246)
+}
+.imgsize{
+    width: 10px;
+    height: 150px;
+}
+.Combo .clr1{
+    background: rgb(209, 236, 264); 
+    box-shadow: -12px 14px 19px -3px rgba(0,0,0,0.75);
+   -webkit-box-shadow: -12px 14px 19px -3px rgba(0,0,0,0.75);
+   -moz-box-shadow: -12px 14px 19px -3px rgba(0,0,0,0.75);
+}
+.Combo .card:hover{
+    
+    box-shadow: -12px 14px 19px -3px rgba(0,0,0,0.75);
+   -webkit-box-shadow: -12px 14px 19px -3px rgba(0,0,0,0.75);
+   -moz-box-shadow: -12px 14px 19px -3px rgba(0,0,0,0.75);
+   transition: 0.5s;
+}
+footer{
+    background: rgb(225, 240, 246);
+}
